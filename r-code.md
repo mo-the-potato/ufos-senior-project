@@ -258,4 +258,4 @@ summary(Model3)
 #Model with air force bases 
 Model4 <-ppm(ufo2 ~ Cov5 + Cov7, covariates = list(Cov5=pop,Cov7=base))
 summary(Model4)
-# Use maps of pop cutlure sites and air force bases as visual aids for this hypothesis
+#Use maps of pop cutlure sites and air force bases as visual aids for this hypothesis
